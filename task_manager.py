@@ -26,4 +26,11 @@ class User:
                 print(f"Task '{task_to_delete}' on {day_to_read} deleted.")
                 return
         print("Task not found.")
-        
+     
+def introduction():
+    print("Hello it's task bar program")
+    print("Choose what u want")
+    print("""1 - Add some task
+             2 - Delete task
+             3 - Read task
+             4 - Quit""")
